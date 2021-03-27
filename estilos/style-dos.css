@@ -993,3 +993,8 @@ display: block;
 #seccion-1m{
     max-height: 100hv;
 }
+
+.bmenu ul li{
+    font-family: "univerltstd-ultracn", "six-caps", 
+}
+
