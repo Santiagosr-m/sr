@@ -9,7 +9,6 @@ lt
 
 
 
-
 ScrollTrigger.create ({
     animation: lt,
     trigger: "#seccion-2",
@@ -31,43 +30,3 @@ lt2.from ("#seccion-3", {
     xPercent:-100,
     opacity:0,
 })
-lt2.from ("#t1", {
-    scrollTrigger:{
-        trigger: "#t1",
-        start: "top top",
-        scrub: true,
-    },
-    y:-100,
-    opacity:0,
-})
-
-
-lt
-.from (".caja-2m", {xPercent: 100})
-.from (".caja-3m", {xPercent: -100})
-
-
-
-
-
-ScrollTrigger.create ({
-    animation: lt,
-    trigger: "#seccion-1m",
-    start: "top top",
-    end: "+=3000",
-    scrub: true,
-    pin: true,
-    anticipatePin:1
-});
-
-
-lt2.from ("#t1", {
-    scrollTrigger:{
-        trigger: "#t1",
-        start: "top top",
-        scrub: true,
-    },
-    y:-100,
-    opacity:0,
-})
-
