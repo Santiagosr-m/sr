@@ -30,3 +30,12 @@ lt2.from ("#seccion-3", {
     xPercent:-100,
     opacity:0,
 })
+lt2.from ("#t1", {
+    scrollTrigger:{
+        trigger: "#t1",
+        start: "top top",
+        scrub: true,
+    },
+    y:-100,
+    opacity:0,
+})
