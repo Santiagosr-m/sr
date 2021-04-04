@@ -567,3 +567,107 @@ li .smal:hover{
 	
 	font-size: 19px;
 	color:black;
+
+}
+    
+    @media screen and (max-width: 700px){
+   #proyectos{
+display: block;
+	position: absolute;
+	top: 48%;
+	right: 0px;
+	z-index: 20;
+	width: 100%;
+        top: 27%;
+}
+
+#proyectos ul{
+	width: 100%;
+	display:block;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items:center;
+	font-family: "univerltstd-ultracn", sans-serif;
+   
+}
+#proyectos ul li h2{
+	padding: 5px;
+	cursor: pointer;
+	
+}
+        #proyectos li{
+            padding: 10px;
+        }       
+        
+li .big{
+	font-size: 70px;
+	font-weight: 600;
+}
+li .medium{
+	font-size:  35px;
+	color:rgba(255, 255, 255, 0.76);
+	font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+li .smal{
+	font-size: 19px;
+	color:rgba(255, 255, 255, 0.5);
+    padding: 0;
+    margin: 0;
+}
+li .medium:hover{
+	font-size:  35px;
+	color:rgb(255, 255, 255);
+	font-weight: 100;
+    padding: 0;
+}
+li .smal:hover{
+	
+	font-size: 19px;
+	color:rgb(255, 255, 255)
+}
+
+.yess ul li {
+	color: black;
+}
+
+.yess li .big{
+	font-size:  70px;
+	font-weight: 600;
+		color:black;
+    margin: 40px;
+}
+.yess li .big:hover{
+    font-size: 100px;
+}
+
+.yess li .medium{
+	font-size:  35px;
+	color:rgba(255, 255, 255, 0.57);
+	font-weight: 100;
+}
+.yess li .smal{
+	font-size: 19px;
+	color:rgba(255, 255, 255, 0.19);
+}
+.yess li .medium:hover{
+	font-size:  35px;
+	color:black;
+	font-weight: 100;
+    font-size: 40px;
+    padding: 0;
+}
+.bmenu ul li{
+    font-family: "univerltstd-ultracn", "six-caps", 
+}
+
+
+.yess li .smal:hover{
+	
+	font-size: 19px;
+	color:black;
+
+}     
+        
+    }
