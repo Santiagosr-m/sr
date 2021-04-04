@@ -12,10 +12,6 @@ ol, ul {
   list-style: none;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 caption, th, td {
   text-align: left;
@@ -23,17 +19,6 @@ caption, th, td {
   vertical-align: middle;
 }
 
-q, blockquote {
-  quotes: none;
-}
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-a img {
-  border: none;
-}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
@@ -41,11 +26,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 html,
 body,
-main {
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-}
 
 
 
@@ -54,12 +34,6 @@ strong {
   font-weight: 700;
 }
 
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-}
 
 body {
   font-family: "univerltstd-ultracn",  sans-serif;
@@ -67,7 +41,6 @@ body {
   font-size: 1em;
   line-height: 2em;
   color: #444;
-  background-color: #d0d0d0;
   text-align: center;
 }
 
@@ -138,7 +111,7 @@ z-index: 10;
 	top: 20px;
 	right: 25px;
 	z-index: 10;;
-
+cursor: pointer;
 		
 }
 
