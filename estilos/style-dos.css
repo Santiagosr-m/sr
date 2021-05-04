@@ -500,7 +500,7 @@ body {
     height: 100vh;
      background-image: url(../images/manual.jpg);
     background-size: cover;
-opacity: 0.6;}
+opacity: 0.9;}
 
 #seccion-4{
     position: relative;
@@ -508,7 +508,8 @@ opacity: 0.6;}
     left: 30%;
     z-index: -200;
     font-size: 70px;
-    color:rgba(0, 0, 0, 0.39)
+    color:rgba(255, 255, 255, 0.39);
+	letter-spacing: 3px;
 }
 .caja-1 {
    background-color: white;
@@ -629,7 +630,7 @@ opacity: 1;}
    background-color: white;
 }
 .caja-2m {
-      background-image: url(../images/mat-fs.jpg);
+	background-color:  #4F7FFF;
     background-size: cover;
 }
 .caja-3m {
@@ -766,6 +767,82 @@ img {
 .post{
     width: 30%;
     margin: 20px;
+}
+
+
+/*Fotoinstante*/
+
+.boxunoifc h2{
+
+	color: white;
+	font-family: 'Roboto', sans-serif;
+text-align: start;
+font-size: 13px;
+margin: 60px;
+margin-top: 0;
+font-weight: 100;
+line-height: 20px;
+}
+.boxunoifc
+{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.boxdos{
+
+	padding: 20px 0;
+	margin: 0;
+}
+
+.derif{
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+justify-content:space-around;
+
+
+}
+
+.divtop p{
+	font-family: 'Roboto', sans-serif;
+	text-align: start;
+	margin: 50px;
+	margin-top: 0
+	;
+}
+.divtop h3{
+	font-family: 'Roboto', sans-serif;
+	margin: 0 50px;
+	text-align: start;
+	font-size: 12px;
+	margin-bottom: 30px;
+	
+}
+.izqif video{
+width: 100%;
+font-size: 13px;
+}
+.derif video{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+.boxdos{
+	background-color: white;
+}
+.back{
+	width: 100%;
+	background-color: white;
+}
+
+.boxunoifw{
+display: none;
 }
 @media screen and (min-width: 700px){
 	.bmenu{
@@ -980,6 +1057,54 @@ display: block;
 	opacity: 1;
 }
 
+.boxunoifw{
+	display: block;
+}
+.boxunoifc{
+	display: none;
+}
+
+.boxunoifw{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.boxunoifw img{
+	max-width: 1000px;
+}
+.izqif {
+	display:block;
+	width: 70%;
+
+}
+.izqif video{
+	width: 100%;
+	padding: 20px;
+	padding-top: 60px;
+	
+}
+.derif{
+	width: 30%;
+}
+video{
+	width: 100%;
+}
+.derif video{
+width: 100%;
+}
+.boxdos{
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	max-width: 1700px;
+	margin: 0 auto;
+}
+	
+
 }
 @media screen and (min-width: 800px){
 
@@ -988,13 +1113,88 @@ display: block;
 	background-size: cover;
 	height: 370px;
 }
+
+}
+@media screen and (max-width: 700px){
+
+
+#seccion-2m h2{
+	padding: 50px;
+	text-align: start;
+	font-size: 18px;
+	line-height: 22px;
 	
 }
+#seccion-2 h2{
+	padding: 50px;
+	text-align: start;
+	font-size: 18px;
+	line-height: 22px;
+	
+}
+
 #seccion-1m{
     max-height: 100hv;
 }
 
 .bmenu ul li{
     font-family: "univerltstd-ultracn", "six-caps", 
+}
+
+.regilla .post{
+width: 100%;
+}
+
+#seccion-2m .caja-1 img{
+	width: 130px;
+	bottom: 40px;
+}
+
+#seccion-2 .caja-1 img{
+	width: 130px;
+	bottom: 40px;
+}
+.somospais{
+	padding-bottom: 30px;
+}
+.logop h1{
+	font-size: 18px;
+}
+}
+
+
+@media screen and (min-width: 800px){
+
+	.regilla{
+		
+	}
+	.regilla .post{
+		display: flex;
+		justify-content: center;
+		width: 28%;
+		}
+
+		#seccion-2m h2{
+		max-width: 470px;
+			font-size: 20px;
+			line-height: 25px;
+		
+
+			
+		}
+		#seccion-2 h2{
+			max-width: 470px;
+				font-size: 20px;
+				line-height: 25px;
+			
+	
+				
+			}
+		footer{
+			padding-top: 0;
+		}
+		.somospais{
+			padding-bottom: 50px;
+		}
 }
 

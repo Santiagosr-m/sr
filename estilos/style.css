@@ -671,3 +671,32 @@ li .smal:hover{
 }     
         
     }
+
+	@media screen and (max-width: 700px){
+	li .big{
+		font-size:  52px;
+		font-weight: 600;
+	}
+	li .medium{
+		font-size:  35px;
+		color:rgba(255, 255, 255, 0.76);
+		font-weight: 100;
+	}
+	li .smal{
+		font-size: 19px;
+		color:rgba(255, 255, 255, 0.5)
+	}
+	li .medium:hover{
+		font-size:  35px;
+		color:rgb(255, 255, 255);
+		font-weight: 100;
+	}
+	li .smal:hover{
+		
+		font-size: 19px;
+		color:rgb(255, 255, 255)
+	}
+
+}
+
+	
