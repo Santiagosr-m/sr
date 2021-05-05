@@ -841,8 +841,48 @@ font-size: 13px;
 	background-color: white;
 }
 
-.boxunoifw{
-display: none;
+.boxunorew{
+height: 100vh;
+background-image: url(../images/portadaregionaal.jpg);
+background-size: cover;
+background-position: center;
+}
+.regboxdos h1{
+	color: black;
+	margin-top: 0;
+	line-height: 35px;
+	text-align: center;
+	padding: 50px;
+
+}
+.derre{
+	padding: 50px;
+	padding-top: 0;
+	text-align: start;
+	font-family: "Roboto";
+	max-width: 800px;
+	margin: 0 auto;
+}
+.derre h2{
+	font-size: 15px;
+}
+.derre p{
+	line-height: 27px;
+}
+
+
+.regboxdos{
+	background-color: white;
+}
+.reboxtres{
+	background-color: white;
+}
+.reboxtres img{
+margin: 0;
+padding: 0;
+}
+.reuno{
+	background-color: white;
 }
 @media screen and (min-width: 700px){
 	.bmenu{
@@ -1106,12 +1146,68 @@ width: 100%;
 	
 
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1300px){
 
 	.fotoo{
 	background-image: url(../images/aboutsr.jpg);
 	background-size: cover;
 	height: 370px;
+}
+
+.regboxdos h1{
+	color: black;
+	margin-top: 0;
+	line-height: 35px;
+	text-align: center;
+	padding: 50px;
+
+}
+.izqre{
+	width: 50%;
+}
+.derre{
+	padding: 50px;
+	padding-top: 0;
+	text-align: start;
+	font-family: "Roboto";
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.derre h2{
+	font-size: 15px;
+
+}
+.derre p{
+	line-height: 27px;
+}
+
+
+.regboxdos{
+	background-color: white;
+	display: flex;
+}
+.reboxtres{
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.reboxtres img{
+margin: 0;
+padding: 20px;
+
+width: 50%;
+}
+.reuno{
+	background-color: white;
+}
+.reuno img{
+	
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 }

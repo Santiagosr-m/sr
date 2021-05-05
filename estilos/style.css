@@ -697,6 +697,10 @@ li .smal:hover{
 		color:rgb(255, 255, 255)
 	}
 
+	.introtexto p{
+		font-size: 18px;
+		font-weight: 100;
+	}
 }
 
 	
